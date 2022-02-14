@@ -7,7 +7,7 @@ import info as inf
 from aiogram.types import URLInputFile
 
 
-TOKEN = "5183833517:AAE1E0ObniSe1aVzYQoDn-KYj0BbQ96w8Nw"
+TOKEN = "5183833517:AAGNIXXSOULBeINkcOQ4QRb34DFuRzYSaWA"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
