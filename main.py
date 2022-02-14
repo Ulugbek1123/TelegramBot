@@ -72,10 +72,10 @@ async def bot_message(message: types.Message):
         await bot.send_message(message.from_user.id, '📱 Контакты', reply_markup = nav.contactMenuRu)
 
     elif message.text == '📱 Telefon Raqam':
-        await bot.send_message(message.from_user.id, '📱 Telefon raqam: +998942871123')
+        await bot.send_message(message.from_user.id, '📱 Telefon raqam:\n+998906054501\n+998666644501')
 
     elif message.text == '📱 Контактный Телефон':
-        await bot.send_message(message.from_user.id, '📱 Контактный Телефон: +998942871123')
+        await bot.send_message(message.from_user.id, '📱 Контактный Телефон:\n+998906054501\n+998666644501')
 
     elif message.text == '📨 Электронная почта':
         await bot.send_message(message.from_user.id, '📨 Электронная почта: info@springwater.uz')
